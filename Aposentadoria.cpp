@@ -17,7 +17,7 @@ int main () {
     scanf("%c", &sexo);
 
     if(sexo != 'M' && sexo != 'F'){
-        printf("O sexo não encontrado");   
+        printf("O sexo não foi informado corretamente");   
         return 0;         
     }
 
